@@ -1,0 +1,63 @@
+* {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: blueviolet;
+    margin: 0;
+}
+
+.container {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.website-title {
+    color: white;
+    border-bottom: 1px solid lightpink;
+    padding-bottom: 8px;
+}
+
+.subtitle-website {
+    color: white;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 48px;
+}
+
+.name-input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+
+}
+
+.name-input::placeholder {
+    color: white;
+}
+
+.fortune-button {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.fortune-history {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pesan {
+    text-align: justify;
+    color: white;
+}
